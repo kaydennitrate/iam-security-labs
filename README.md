@@ -13,15 +13,15 @@ This repository serves as a technical portfolio documenting hands-on experience 
 
 ## Project Index
 
-### [01. Home Network Security & Monitoring Lab](./01-network-security.md)
+### [Home Network Security & Monitoring Lab](./Home%20Network%20Security%20%26%20Monitoring%20Lab/network-security.md)
 **Objective:** Hardening a gateway infrastructure to establish a verifiable asset inventory and monitor for unauthorized network activity.
 * **Key Controls:** Static DHCP, DNS Filtering, Gateway Log Analysis.
 
-### [02. Virtual Machine (VM) Hardening Lab](./02-system-hardening.md)
+### [Virtual Machine (VM) Hardening Lab](./Virtual%20Machine%20(VM)%20Hardening%20Lab/system-hardening.md)
 **Objective:** Securing Windows and Linux OS environments to reduce organizational attack surfaces and enforce user access policies.
 * **Key Controls:** Principle of Least Privilege (PoLP), Service Disablement, Host-based Firewalls.
 
-### [03. Network Access Control (NAC) Project](./03-access-control.md)
+### [Network Access Control (NAC) Project](./Network%20Access%20Control%20(NAC)%20Project/access-control.md)
 **Objective:** Design and execution of granular access control policies to manage the user lifecycle and ensure network compliance.
 * **Key Controls:** Access Control Lists (ACLs), Time-based Access, MAC Address Filtering.
 
