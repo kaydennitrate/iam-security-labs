@@ -29,10 +29,10 @@ Graduate (2024) with a focus on Enterprise Identity Governance, System Hardening
 
 * **[01-Identity-Governance-Lifecycle](./01-Identity-Governance-Lifecycle/):** Automated enterprise onboarding via CSV templates to manage the user lifecycle.
 * **[02-Access-Control-Automation](./02-Access-Control-Automation/):** Established security groups for streamlined resource access across departments.
-* **[03-Zero-Trust-Enforcement](./03-Zero-Trust-Enforcement/):** Hardened account security by enforcing per-user MFA across the directory.
+* **[03-Zero-Trust-Enforcement](./03-Zero-Trust-Enforcement/):** Hardened account security by enabling per-user MFA across the directory.
 * **[04-Infrastructure-Perimeter-Hardening](./04-Infrastructure-Perimeter-Hardening/):**
     * **OS Hardening:** Implemented POSIX directory isolation (`700`) on Linux.
-    * **Network Defense:** Deployed SSID Stealth, MAC Whitelisting, and Layer 7 URL filtering (`tiktok.com`) with temporal access windows.
+    * **Network Defense:** Deployed SSID Stealth, MAC Whitelisting, and Layer 7 URL filtering (tiktok.com) with temporal access windows.
 
 ### Home Network Security & Monitoring
 **Objective:** Secure a network gateway and establish asset visibility to detect unauthorized reconnaissance.
