@@ -18,3 +18,5 @@ Set policy state to On to move from report-only to active enforcement.
 ## 3.3 Evidence
 - Outcome:
 Identity-based perimeter hardened; MFA requirement active for all targeted sessions to prevent unauthorized access via compromised credentials.
+
+Note: Due to licensing constraints in the lab environment, membership was manually assigned to simulate the ABAC workflow, and MFA was enforced via per-user security defaults.
