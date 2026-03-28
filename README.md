@@ -4,7 +4,8 @@
 **Entry-Level Cybersecurity Analyst | Specializing in IAM & Security Operations**
 Graduate (2024) with a focus on Enterprise Identity Governance, System Hardening, and Network Defense. This portfolio documents hands-on implementation of security controls across Cloud (Entra ID), Linux, and Networking environments.
 
-- **Certifications:** ISC2 Certified in Cybersecurity (CC), Cisco Networking Basics, TESDA CSS NCII.
+- **Certification Status:** ISC2 Certified in Cybersecurity (CC) — **Candidate (Exam Scheduled)**.
+- **Technical Certifications:** Cisco Networking Basics, TESDA CSS NCII.
 - **Experience:** 5+ years of technical engagement with Cryptocurrency technologies (Hashing, Encryption, Private Key Management).
 - **Core Focus:** Principle of Least Privilege (PoLP), Zero Trust Architecture, and Attack Surface Reduction.
 
@@ -32,20 +33,20 @@ Graduate (2024) with a focus on Enterprise Identity Governance, System Hardening
 
 ### 🔍 Home Network Security & Monitoring
 **Objective:** Secure a network gateway and establish asset visibility to detect unauthorized reconnaissance.
-- **Status:** *Documentation Pending Upload*
+- **Status:** Documentation Pending Upload
 - **Controls:** Static DHCP Reservations, DNS Filtering, Gateway Log Analysis.
 
 ### 🛡️ System Hardening & Privilege Management
 **Objective:** Reduce attack surfaces on Windows and Linux workstations through policy enforcement.
-- **Status:** *Documentation Pending Upload*
+- **Status:** Documentation Pending Upload
 - **Controls:** Service Disablement, Host-based Firewalls, ACL Management.
 
 ---
 
 ## 📜 Professional Certifications & Education
 
-- **ISC2 Certified in Cybersecurity (CC)**
-  - Comprehensive validation of security principles, network security, and security operations.
+- **ISC2 Certified in Cybersecurity (CC) — Candidate**
+  - Status: Completed all 5 study domains; Exam scheduled pending document clearance.
 - **Cisco Networking Basics**
   - Foundational networking, routing, and switching protocols.
 - **Computer Systems Servicing (CSS) NCII (TESDA)**
