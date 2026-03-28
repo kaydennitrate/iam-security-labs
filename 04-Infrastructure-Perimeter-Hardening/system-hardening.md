@@ -1,20 +1,29 @@
-# Lab 4: OS Hardening and Network Perimeter Security
+# Lab 4: Infrastructure & Perimeter Hardening
 
-## 4.1 Security Objective
-To apply defense-in-depth principles by hardening the local Operating System (OS) and the physical network gateway. This prevents unauthorized horizontal movement and limits the attack surface available to external threats.
+## Objective
+To reduce the attack surface of the local environment by implementing multi-layered security controls across the Operating System (OS), Wireless Perimeter, and Network Gateway.
 
-## 4.2 Technical Procedure
-- Linux System Hardening (Directory ACLs):
-Accessed the Azure Cloud Shell (Bash environment).
-Executed mkdir /finance_audit_vault to create a secure data repository.
-Applied chmod 700 /finance_audit_vault to restrict all Read, Write, and Execute permissions exclusively to the root owner.
-Verified permissions using ls -ld, ensuring the output reflected drwx------.
+## Technical Implementation
 
-- Network Perimeter Security (Gateway Configuration):
-Authenticated to the Huawei ONT administrative interface.
-MAC Whitelisting: Enabled hardware-address filtering to restrict network access to authorized device IDs only.
-SSID Obfuscation: Disabled SSID broadcasting to hide the network from wireless reconnaissance tools.
+### 1. OS-Level Access Control (POSIX Hardening)
+* **Action:** Configured restricted directory permissions using the Linux CLI.
+* **Control:** Applied `chmod 700` to sensitive directories, ensuring only the owner has read, write, and execute authority.
+* **Evidence:** `Lab 4 - System & Infrastructure Hardening.png`
 
-## 4.3 Evidence
-- Outcome:
-System-level ACLs enforced; network visibility eliminated to increase the security posture of the environment.
+### 2. Wireless Perimeter Stealth
+* **Action:** Disabled SSID broadcasting for the "Asynchronous" wireless network.
+* **Control:** Perimeter Suppression mitigate unauthorized network discovery and targeted reconnaissance.
+* **Evidence:** `Lab 4B - SSID Stealth Configuration.png`
+
+### 3. Layer 2 Hardware Gatekeeping
+* **Action:** Deployed a strict MAC Address Whitelist on the Huawei ONT.
+* **Control:** Filter Mode set to "Whitelist" to ensure only pre-authorized hardware can associate with the Access Point.
+* **Evidence:** `Lab 4C - MAC Whitelist Hardening.png`
+
+### 4. Layer 7 Policy & Content Filtering
+* **Action:** Implemented administrative content filtering and temporal access schedules.
+* **Control:** Configured a "kid" template to prohibit access to specific domains (tiktok.com) and restrict network availability to a defined window (05:00-22:00).
+* **Evidence:** `Lab 4D - Administrative Content Filtering.png`
+
+---
+*This module demonstrates the ability to enforce the Principle of Least Privilege and establish a defense-in-depth posture at the network edge.*
